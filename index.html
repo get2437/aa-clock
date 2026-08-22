@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>サポート / Support — AA時計（A Clock For You）</title>
+<meta name="description" content="AA時計（A Clock For You）のサポートページ。ウィジェットの追加方法、時計の変更、アラーム、購入の復元などのよくある質問。">
+<style>
+/* AA時計のサポート／プライバシーポリシー用の共通スタイル。
+   App Store の審査員と利用者が見るページなので、外部リソースは一切読み込まない
+   （フォントも CDN も使わない。オフラインでも同じ見た目になる）。 */
+
+:root {
+  --bg: #ffffff;
+  --fg: #1c1c1e;
+  --muted: #6b6b70;
+  --line: #e3e3e6;
+  --accent: #a8842c;
+  --card: #f7f7f8;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #16161a;
+    --fg: #ececf0;
+    --muted: #9a9aa2;
+    --line: #2e2e34;
+    --accent: #d8b45c;
+    --card: #1e1e23;
+  }
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  padding: 0 20px 80px;
+  background: var(--bg);
+  color: var(--fg);
+  font-family: -apple-system, BlinkMacSystemFont, "Hiragino Sans", "Yu Gothic",
+               "Segoe UI", Roboto, sans-serif;
+  line-height: 1.8;
+  font-size: 16px;
+  -webkit-text-size-adjust: 100%;
+}
+
+.wrap { max-width: 720px; margin: 0 auto; }
+
+header {
+  padding: 48px 0 24px;
+  border-bottom: 1px solid var(--line);
+  margin-bottom: 8px;
+}
+
+header h1 {
+  font-size: 1.6rem;
+  margin: 0 0 6px;
+  letter-spacing: .01em;
+}
+
+header .sub { color: var(--muted); font-size: .9rem; margin: 0; }
+
+nav {
+  margin: 20px 0 8px;
+  font-size: .9rem;
+}
+
+nav a {
+  display: inline-block;
+  padding: 6px 14px;
+  margin-right: 8px;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  text-decoration: none;
+  color: var(--fg);
+  background: var(--card);
+}
+
+nav a:hover { border-color: var(--accent); color: var(--accent); }
+
+h2 {
+  font-size: 1.25rem;
+  margin: 48px 0 4px;
+  padding-top: 20px;
+  border-top: 1px solid var(--line);
+}
+
+h2:first-of-type { border-top: none; padding-top: 0; }
+
+h3 {
+  font-size: 1.02rem;
+  margin: 32px 0 8px;
+  color: var(--accent);
+}
+
+p, li { margin: 10px 0; }
+ul, ol { padding-left: 1.3em; }
+
+strong { font-weight: 600; }
+
+.q {
+  font-weight: 600;
+  margin: 30px 0 6px;
+  padding-left: 12px;
+  border-left: 3px solid var(--accent);
+}
+
+a { color: var(--accent); }
+
+code, .mono {
+  font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+  font-size: .92em;
+  background: var(--card);
+  padding: 2px 6px;
+  border-radius: 5px;
+}
+
+.note {
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  padding: 14px 18px;
+  margin: 20px 0;
+}
+
+footer {
+  margin-top: 64px;
+  padding-top: 20px;
+  border-top: 1px solid var(--line);
+  color: var(--muted);
+  font-size: .85rem;
+}
+
+footer a { color: var(--muted); }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<header>
+  <h1>AA時計 サポート / AA clock Support</h1>
+  <p class="sub">iPhone 向けの時計アプリ・iOS 26.0 以降</p>
+</header>
+
+<nav>
+  <a href="#ja">日本語</a>
+  <a href="#en">English</a>
+  <a href="privacy.html">プライバシーポリシー / Privacy</a>
+</nav>
+
+<div class="note">
+  お問い合わせ / Contact：<a href="mailto:bunbuncat.support@gmail.com">bunbuncat.support@gmail.com</a>
+</div>
+
+<h2 id="ja">日本語</h2>
+
+<h3>AA時計について</h3>
+<p>AA時計は、好きなデザインの時計をホーム画面のウィジェットに表示できる iPhone 向けの時計アプリです。アナログ42種類・デジタル36種類、あわせて78種類の時計デザインを収録しています。アラーム、ストップウォッチ、タイマーも使えます。</p>
+<p>対応OS：iOS 26.0以降 ／ 対応端末：iPhone</p>
+
+<h3>よくある質問</h3>
+
+<p class="q">Q. ウィジェットをホーム画面に追加するには？</p>
+<ol>
+  <li>ホーム画面の何もないところを長押しします</li>
+  <li>左上の「編集」→「ウィジェットを追加」を選びます</li>
+  <li>検索欄で「AA時計」を探します</li>
+  <li>サイズ（小 または 大）を選んで「ウィジェットを追加」を押します</li>
+</ol>
+<p>アプリ内の <strong>設定タブ →「ウィジェットの追加方法」</strong> に、図つきの説明があります。</p>
+
+<p class="q">Q. ウィジェットに出る時計を変えたい</p>
+<p>設定タブ →「時計」→ 使いたい時計をタップ →「この時計にする」を押します。選んだ時計は、アプリの時計画面とウィジェットの両方に表示されます。</p>
+
+<p class="q">Q. ウィジェットを2枚置いて、それぞれ別の時計にしたい</p>
+<p>ホーム画面でウィジェットを長押しし、「ウィジェットを編集」を選びます。そこで表示する時計を選ぶと、<strong>そのウィジェットだけ</strong>に反映されます。</p>
+
+<p class="q">Q. 置き時計として使いたい（画面を消したくない）</p>
+<p>時計タブで<strong>時計をタップすると全画面</strong>になり、タブバーもステータスバーも消えて時計だけになります。もう一度タップすると元に戻ります。全画面の間は画面が自動で暗くなりません。</p>
+<p>全画面でないときも画面を消したくない場合は、<strong>設定タブ →「置き時計」→「画面を消さない」</strong>をオンにしてください。電池の減りが早くなるので、充電しながらのご利用をおすすめします。</p>
+<p>なお、画面の焼き付きを防ぐため、時計の位置は数分ごとにわずかに動きます。故障ではありません。</p>
+
+<p class="q">Q. デジタル時計の文字を変えたい</p>
+<p>設定タブ →「時計」→ デジタル時計を選んで「この時計にする」を押すと、続けて設定画面が出ます。ここで次の3つを変えられます。</p>
+<ul>
+  <li>時刻表示（12時間 / 24時間）</li>
+  <li>字体（35種類）</li>
+  <li>文字色（色あい・鮮やかさ・明るさの3本のスライダー）</li>
+</ul>
+<p>設定は<strong>時計ごとに保存</strong>されます。元に戻したいときは「この時計をもとに戻す」を押します。</p>
+
+<p class="q">Q. 時計に鍵のマークが付いていて選べない</p>
+<p>その時計は有料の「時計パック」に入っています。タップするとプレビューが開き、購入前でも実際の見た目を確認できます。「パックを見る」を押すと、そのパックの購入画面に進みます。</p>
+
+<p class="q">Q. 買ったパックが表示されない／機種変更した</p>
+<p>設定タブ →「購入を復元」を押してください。購入時と同じ Apple Account でサインインしている必要があります。</p>
+
+<p class="q">Q. 時計パックは月額料金ですか？</p>
+<p>いいえ。すべて買い切りです。一度購入すれば追加の料金はかかりません。</p>
+
+<p class="q">Q. アラームが鳴りません</p>
+<p>次の順に確認してください。</p>
+<ol>
+  <li><strong>アプリに許可を出しているか</strong> — 初回にアラームを保存したときに許可を求めます。拒否した場合は、iPhone の「設定」アプリ → AA時計 から許可し直してください。許可が無い状態ではアラームはオフに戻ります</li>
+  <li><strong>アラームがオンになっているか</strong> — アラームタブの一覧でスイッチがオンか確認します</li>
+  <li><strong>曜日の設定</strong> — 曜日を指定している場合、その曜日にしか鳴りません。曜日を選んでいない場合は1回だけ鳴り、鳴り終わると自動でオフに戻ります</li>
+  <li><strong>音量とサイレントスイッチ</strong> — 端末の音量を確認してください</li>
+  <li><strong>選んだサウンド</strong> — アラーム編集画面の「サウンド」で選んだ音が鳴ります。選ぶ画面では ▶ を押して試聴できます</li>
+</ol>
+
+<p class="q">Q. ストップウォッチやタイマーはウィジェットで見られますか？</p>
+<p>ウィジェットに表示する内容として選べます。ホーム画面でウィジェットを長押し →「ウィジェットを編集」から、時計のかわりにストップウォッチまたはタイマーを選んでください。</p>
+
+<p class="q">Q. Apple Watch や iPad で使えますか？</p>
+<p>現在は iPhone のみの対応です。</p>
+
+<h3>問い合わせ先</h3>
+<p><a href="mailto:bunbuncat.support@gmail.com">bunbuncat.support@gmail.com</a></p>
+<p>不具合のご連絡の際は、次を書いていただけると調査が早くなります。<br>
+iPhone の機種／iOS のバージョン／AA時計のバージョン／どの画面で何をしたときに起きたか</p>
+
+<h3>プライバシーポリシー</h3>
+<p><a href="privacy.html">プライバシーポリシーはこちら</a></p>
+
+<h2 id="en">English</h2>
+
+<h3>About AA clock</h3>
+<p>AA clock is an iPhone clock app that lets you show the clock face you like in a Home Screen widget. It includes 78 faces in total — 42 analog and 36 digital — plus an alarm, a stopwatch and a timer.</p>
+<p>Requires iOS 26.0 or later. iPhone only.</p>
+
+<h3>Frequently Asked Questions</h3>
+
+<p class="q">Q. How do I add the widget to my Home Screen?</p>
+<ol>
+  <li>Touch and hold an empty area of the Home Screen</li>
+  <li>Tap "Edit" in the top left, then "Add Widget"</li>
+  <li>Search for "AA clock"</li>
+  <li>Choose a size (Small or Large) and tap "Add Widget"</li>
+</ol>
+<p>There is an illustrated guide inside the app under <strong>Settings → How to Add a Widget</strong>.</p>
+
+<p class="q">Q. How do I change which clock the widget shows?</p>
+<p>Settings → Clock → tap the face you want → "Use This Clock". The face you pick appears both on the app's clock screen and in the widget.</p>
+
+<p class="q">Q. Can two widgets show different faces?</p>
+<p>Yes. Touch and hold the widget on the Home Screen and choose "Edit Widget", then pick a face there. That choice applies to <strong>that widget only</strong>.</p>
+
+<p class="q">Q. Can I use it as a desk clock (keep the screen on)?</p>
+<p>On the Clock tab, <strong>tap the clock to fill the screen</strong> — the tab bar and status bar go away, leaving only the clock. Tap again to go back. The screen does not dim while the clock is full screen.</p>
+<p>To stop the screen dimming even when not full screen, turn on <strong>Settings → Desk Clock → Keep Screen On</strong>. This uses more battery, so we recommend keeping your iPhone charging.</p>
+<p>The clock shifts by a few points every couple of minutes to avoid screen burn-in. This is intentional, not a fault.</p>
+
+<p class="q">Q. How do I change the look of a digital face?</p>
+<p>Settings → Clock → pick a digital face → "Use This Clock". A settings screen appears next, where you can change:</p>
+<ul>
+  <li>Time format (12-hour or 24-hour)</li>
+  <li>Typeface (35 options)</li>
+  <li>Text color (hue, saturation and brightness sliders)</li>
+</ul>
+<p>Settings are <strong>saved per face</strong>. Tap "Reset This Clock" to undo them.</p>
+
+<p class="q">Q. A face has a lock icon and I cannot select it</p>
+<p>That face belongs to a paid clock pack. Tap it to open a preview — you can see exactly how it looks before buying. Tap "View Pack" to go to the purchase screen.</p>
+
+<p class="q">Q. My purchase is missing / I changed devices</p>
+<p>Go to Settings → "Restore Purchases". You must be signed in with the same Apple Account you used when purchasing.</p>
+
+<p class="q">Q. Are clock packs a subscription?</p>
+<p>No. Every pack is a one-time purchase with no recurring charge.</p>
+
+<p class="q">Q. My alarm does not go off</p>
+<p>Check the following in order:</p>
+<ol>
+  <li><strong>Permission</strong> — the app asks for permission the first time you save an alarm. If you declined, allow it again in the iPhone Settings app under AA clock. Without permission, alarms are switched back off</li>
+  <li><strong>The alarm is on</strong> — check the switch in the Alarm tab</li>
+  <li><strong>Repeat days</strong> — if you selected days, the alarm only rings on those days. With no days selected it rings once and then turns itself off</li>
+  <li><strong>Volume and the silent switch</strong> on your device</li>
+  <li><strong>The chosen sound</strong> — set under "Sound" in the alarm editor. Tap ▶ in that screen to hear each sound</li>
+</ol>
+
+<p class="q">Q. Can the widget show the stopwatch or timer?</p>
+<p>Yes. Touch and hold the widget on the Home Screen, choose "Edit Widget", and select Stopwatch or Timer instead of a clock.</p>
+
+<p class="q">Q. Is there an Apple Watch or iPad version?</p>
+<p>Not at the moment. AA clock is iPhone only.</p>
+
+<h3>Contact</h3>
+<p><a href="mailto:bunbuncat.support@gmail.com">bunbuncat.support@gmail.com</a></p>
+<p>When reporting a problem, please include your iPhone model, iOS version, AA clock version, and what you were doing when it happened.</p>
+
+<h3>Privacy Policy</h3>
+<p><a href="privacy.html">Read the privacy policy</a></p>
+
+<footer>
+  <p>© 2026 Tomohide Yanome ・ <a href="privacy.html">プライバシーポリシー / Privacy Policy</a></p>
+</footer>
+
+</div>
+</body>
+</html>
